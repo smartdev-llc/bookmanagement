@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autumn.BookManagement.Apis", "Autumn.BookManagement.Apis\Autumn.BookManagement.Apis.csproj", "{5E188C11-F481-4C9B-AEC9-F4FD043250C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autumn.BookManagement.Models", "Autumn.BookManagement.Models\Autumn.BookManagement.Models.csproj", "{E43ACFD8-2DD4-48CE-8F06-617572858453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autumn.BookManagement.Repositories", "Autumn.BookManagement.Repositories\Autumn.BookManagement.Repositories.csproj", "{6C6BABE8-9BEF-4B3F-AAE2-BCDFF39686C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autumn.BookManagement.Services", "Autumn.BookManagement.Services\Autumn.BookManagement.Services.csproj", "{C4CBF579-D513-47B2-8F1A-7B8F7DAA0643}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF8CE4E6-186D-43C4-B170-2D2DEAEAF4D0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C08EC5F9-2DBC-449F-83C1-88C2524E5B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.BookManagement.ServiceTests", "Tests\Autumn.BookManagement.ServiceTests\Autumn.BookManagement.ServiceTests.csproj", "{B2CAB9EA-B29D-4CD6-945C-7F465C32A61D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E188C11-F481-4C9B-AEC9-F4FD043250C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E188C11-F481-4C9B-AEC9-F4FD043250C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E188C11-F481-4C9B-AEC9-F4FD043250C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E188C11-F481-4C9B-AEC9-F4FD043250C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43ACFD8-2DD4-48CE-8F06-617572858453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43ACFD8-2DD4-48CE-8F06-617572858453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43ACFD8-2DD4-48CE-8F06-617572858453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43ACFD8-2DD4-48CE-8F06-617572858453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6BABE8-9BEF-4B3F-AAE2-BCDFF39686C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6BABE8-9BEF-4B3F-AAE2-BCDFF39686C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6BABE8-9BEF-4B3F-AAE2-BCDFF39686C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6BABE8-9BEF-4B3F-AAE2-BCDFF39686C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CBF579-D513-47B2-8F1A-7B8F7DAA0643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CBF579-D513-47B2-8F1A-7B8F7DAA0643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CBF579-D513-47B2-8F1A-7B8F7DAA0643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CBF579-D513-47B2-8F1A-7B8F7DAA0643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CAB9EA-B29D-4CD6-945C-7F465C32A61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CAB9EA-B29D-4CD6-945C-7F465C32A61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CAB9EA-B29D-4CD6-945C-7F465C32A61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CAB9EA-B29D-4CD6-945C-7F465C32A61D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2CAB9EA-B29D-4CD6-945C-7F465C32A61D} = {C08EC5F9-2DBC-449F-83C1-88C2524E5B6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29DD7626-BCE8-445D-B015-4CE986ED8749}
+	EndGlobalSection
+EndGlobal
